@@ -7,3 +7,6 @@ spring:
 
   flyway:
     locations: db/migration
+    enabled: true
+    table: SCHEMA_HISTORY
+    baseline-on-migrate: true
